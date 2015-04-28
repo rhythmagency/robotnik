@@ -1,0 +1,12 @@
+# Folder created by NuGet.
+**/App_Data/NuGetBackup/
+
+# Visual Studio packages.
+/packages/*/
+
+# Visual Studio build artifacts.
+bin/
+obj/
+
+# Visual Studio solution user options.
+*.suo
