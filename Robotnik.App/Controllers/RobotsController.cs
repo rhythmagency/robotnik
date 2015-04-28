@@ -19,7 +19,6 @@
         private const string Prefix = "robotnik-";
         private const string DefaultKey = "robotnik-default";
         private const string PlainText = MediaTypeNames.Text.Plain;
-        private const string RobotsTxt = "robots.txt";
 
         #endregion
 
