@@ -9,6 +9,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Robotnik.Web", "http://loca
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{4c1a8d14-94de-43fc-8e2c-91de355c91d9}|Robotnik.App.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49216"
 		Debug.AspNetCompiler.PhysicalPath = "Robotnik.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49216\"
