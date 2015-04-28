@@ -13,3 +13,9 @@ Once installed, just add a few text files and add some app settings to your web.
   <add key="robotnik-default" value="~/robots-staging.txt" />
 </appSettings>
 ```
+
+# Code Conventions
+Here are the code conventions when contributing to this repository:
+* Spaces instead of tabs.
+* Lots of code comments (properties, methods, classes).
+* Follow existing standards you see in each file.
