@@ -4,6 +4,8 @@ An Umbraco package that serves a different robots.txt for each domain.
 ![Example](assets/images/robots.png?raw=true "Example")
 
 # Usage
+Install the Umbraco package at: https://our.umbraco.org/projects/developer-tools/robotnik
+
 Once installed, just add a few text files and add some app settings to your web.config to map them to domains. For example:
 ```xml
 <appSettings>
