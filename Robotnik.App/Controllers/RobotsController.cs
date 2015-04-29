@@ -19,6 +19,7 @@
         private const string Prefix = "robotnik-";
         private const string DefaultKey = "robotnik-default";
         private const string PlainText = MediaTypeNames.Text.Plain;
+        private const string FallbackPath = "~/robots.txt";
 
         #endregion
 
@@ -38,7 +39,7 @@
 
 
             // Try to get the path.
-            var path = GetValue(key) ?? GetValue(DefaultKey);
+            var path = GetValue(key) ?? GetValue(DefaultKey) ?? FallbackPath;
             if (!string.IsNullOrWhiteSpace(path))
             {
                 var localPath = Request.MapPath(path);
