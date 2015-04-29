@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /
+
+sitemap: http://staging.somesite.com/sitemap.xml

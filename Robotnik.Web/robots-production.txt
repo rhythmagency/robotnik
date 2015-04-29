@@ -1,0 +1,9 @@
+user-agent: *
+crawl-delay: 10
+disallow: /umbraco/
+disallow: /Umbraco/
+disallow: /umbraco_client/
+disallow: /Umbraco_client/
+disallow: /Umbraco_Client/
+
+sitemap: http://www.somesite.com/sitemap.xml
